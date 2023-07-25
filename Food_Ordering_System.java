@@ -50,39 +50,39 @@ public class Food_Ordering_System {
 				{
 				obj.Breads();
 				System.out.println("\nDo you want to add another starter y/n: ");
-				ans=sc.next().charAt(0);
+			        ans=sc.next().charAt(0);
 				}while(ans=='y'||ans=='Y');
 				break;
 		
-	        case 4:
-	        	do
+	               case 4:
+		        	do
 				{
-	        	obj.Rice();
-	        	System.out.println("\nDo you want to add another Rice y/n: ");
+		        	obj.Rice();
+		        	System.out.println("\nDo you want to add another Rice y/n: ");
 				ans=sc.next().charAt(0);
 				}while(ans=='y'||ans=='Y');
-	        	break;
+		        	break;
 	        	
-	        case 5:
-	        	do
+		        case 5:
+		        	do
 				{
 				obj.Deserts();
 				System.out.println("\nDo you want to add another Desert y/n: ");
 				ans=sc.next().charAt(0);
 				}while(ans=='y'||ans=='Y');
 				break;	
-				
-	        case 6:
-	        	do
+					
+		        case 6:
+		        	do
 				{
-	        	obj.Drinks();
-	        	System.out.println("\nDo you want to add another Drink y/n: ");
+		        	obj.Drinks();
+		        	System.out.println("\nDo you want to add another Drink y/n: ");
 				ans=sc.next().charAt(0);
 				}while(ans=='y'||ans=='Y');
-	        	break;
-	        	
+		        	break;
+		        	
 			}
-			
+				
 			System.out.print("\nDo want to go to Main Menu? y/n: ");
 			choice=sc.next().charAt(0);
 			
