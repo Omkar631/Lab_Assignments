@@ -1,5 +1,3 @@
-package Practice;
-
 //WAP to Create a Food Ordering System
 
 import java.util.*;
@@ -252,11 +250,11 @@ public class Food_Ordering_System {
 	//5.Deserts Menu
 	public void Deserts() 
 	{
-		System.out.print("\n  Deserts:                                   Price");
-		System.out.print("\n1.Khulfi (Pista,Malai,Mango,Mix)             Rs 180");
-		System.out.print("\n2.Falooda (Royal,Pista,Badam,Gulkand)        Rs 180");
-		System.out.print("\n3.Ice-Cream (Chocolate,Vanilla,)             Rs 180");
-		System.out.print("\n4.Cake (Chocolate,Fruits,Butterscoth)        Rs 180");
+		System.out.print("\n  Deserts:                                                         Price");
+		System.out.print("\n1.Khulfi (Pista,Malai,Mango,Mix)                                   Rs 180");
+		System.out.print("\n2.Falooda (Royal,Pista,Badam,Gulkand)                              Rs 180");
+		System.out.print("\n3.Ice-Cream (Chocolate,Vanilla,Stawberry,ButterScotch)             Rs 180");
+		System.out.print("\n4.Cake (Chocolate,Fruits,Butterscoth)                              Rs 180");
 		System.out.print("\nSelect Your Option: ");
 		choice5=sc.nextInt();
 		switch(choice5)//5.Deserts Menu
@@ -264,22 +262,22 @@ public class Food_Ordering_System {
 		
 			case 1:
 				System.out.print("\nKhulfi (Pista,Malai,Mango,Mix)         Rs 180");
-				menu_item+="\nKhulfi (Pista,Malai,Mango,Mix)         Rs 180";
+				menu_item+="\nKhulfi             Rs 180";
 				total += 180;
 				break;
 			case 2:
 				System.out.print("\nFalooda (Royal,Pista,Badam,Gulkand)    Rs 180");
-				menu_item+="\nFalooda (Royal,Pista,Badam,Gulkand)    Rs 180";
+				menu_item+="\nFalooda            Rs 180";
 				total += 180;
 				break;
 			case 3:
-				System.out.print("\nIce-Cream (Chocolate,Vanilla,)         Rs 180");
-				menu_item+="\nIce-Cream (Chocolate,Vanilla,)         Rs 180";
+				System.out.print("\nIce-Cream (Chocolate,Vanilla,Stawberry,ButterScotch)         Rs 180");
+				menu_item+="\nIce-Cream          Rs 180";
 				total += 180;
 				break;	
 			case 4:
 				System.out.print("\nCake (Chocolate,Fruits,Butterscoth)    Rs 180");
-				menu_item+="\nCake     Rs 180";
+				menu_item+="\nCake               Rs 180";
 				total += 180;
 				break;	
 				
@@ -293,7 +291,7 @@ public class Food_Ordering_System {
 		System.out.print("\n  Drinks:                                               Price");
 		System.out.print("\n1.Cold Drink (Pepsi,Coco-Cola,Sprit,Thumbs-Up)          Rs 120");
 		System.out.print("\n2.Solkadi                                               Rs 160");
-		System.out.print("\n3.Ice-Cream (Chocolate,Vanilla)                        Rs 200");
+		System.out.print("\n3.Buttermilk                                            Rs 100");
 		System.out.print("\n4.Smoothie (Chocolate,Fruits,Butterscoth,Stawberry)     Rs 280");
 		System.out.print("\nSelect Your Option: ");
 		choice6=sc.nextInt();
@@ -311,9 +309,9 @@ public class Food_Ordering_System {
 				total += 160;
 				break;
 			case 3:
-				System.out.print("\nIce-Cream (Chocolate,Vanilla)       Rs 200");
-				menu_item+="\nIce-Cream       Rs 200";
-				total += 200;
+				System.out.print("\nButtermilk      Rs 100");
+				menu_item+="\nButtermilk      Rs 100";
+				total += 100;
 				break;	
 			case 4:
 				System.out.print("\nSmoothie (Chocolate,Fruits,Butterscoth,Stawberry)     Rs 280");
@@ -329,7 +327,7 @@ public class Food_Ordering_System {
 	{
 		System.out.println("\n*Your Bill*"); 
 		System.out.println("\nItem You Ordered : "+menu_item);
-		System.out.println("\n\nTotal Amount: Rs "+ total);//total Bill is Displayed
+		System.out.println("\nTotal Amount: Rs "+ total);//total Bill is Displayed
 		System.out.println("\nThank You Visit us Again!!!!");
 	}
 
